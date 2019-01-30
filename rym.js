@@ -46,7 +46,6 @@ function run () {
             const page = await browser.newPage();
             let moviesTotal = [];
             await page.goto("https://rateyourmusic.com/film_collection/euroshopper/recent/");
-            await page.screenshot({path: 'main.png'});
             page.title().then(function(res) {
                 if( res === "IP blocked") {
                     return reject("IP is blocked");
