@@ -1,0 +1,24 @@
+{
+  "name": "rym-to-letterboxd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rym.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNorbertx/rym-to-letterboxd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xNorbertx/rym-to-letterboxd/issues"
+  },
+  "homepage": "https://github.com/xNorbertx/rym-to-letterboxd#readme",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "puppeteer": "^2.0.0"
+  }
+}
